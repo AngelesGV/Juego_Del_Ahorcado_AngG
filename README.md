@@ -3,7 +3,7 @@ Alura Sprint 2 de Principiante en programación. Creando tu propio juego del aho
 
 **link:** https://angelesgv.github.io/Juego_Del_Ahorcado_AngG/
 
-**Recomendación:** Ejecutarlo desde otro servidor web, ejemplo live server, ya que hay cosas que desde github no muestra.
+**Recomendación:** Ejecutarlo desde otro servidor web, ejemplo live server, ya que hay cosas que desde github no muestra (como un arbol o la textura de la configuración).
 
 ![AhorcadoHome](https://user-images.githubusercontent.com/103854583/184469637-59641529-27f8-4bd5-9650-dde1da0c2f39.png)
 
