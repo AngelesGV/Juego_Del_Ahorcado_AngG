@@ -53,7 +53,7 @@ function agregarNuevaPalabra(evento){
         }
 
         palabraNueva.value = '';
-        window.location.href='/index.html';
+        window.location.href='index.html';
 
     }else{
         alert("Error, debe ingresar una palabra antes. Solo se aceptan letras");
