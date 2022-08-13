@@ -11,7 +11,7 @@
     padding: 0.4vh 2vh;
     margin: 0 10px;
 
-    background: url("./imagenes/madera_dos.jpg") center no-repeat;
+    background: url("/imagenes/madera_dos.jpg") center no-repeat;
     background-position: center;
     background-size: cover;
     border: 4px solid #7B3930;
@@ -41,7 +41,7 @@
     padding: 0.4vh 2vh;
     margin: 0 10px;
 
-    background: url("./imagenes/madera_dos.jpg") center no-repeat;
+    background: url("/imagenes/madera_dos.jpg") center no-repeat;
     background-position: center;
     background-size: cover;
     border: 4px solid #681c11;

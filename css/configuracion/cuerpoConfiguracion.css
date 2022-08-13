@@ -32,7 +32,7 @@
     height: 450px;
     padding: 18px;
 
-    background: url("../imagenes/madera.jpg");
+    background: url("/imagenes/madera.jpg");
     background-size: cover;
     border-radius: 30px;
 }
