@@ -198,7 +198,7 @@ function Juego(lineas, letra){
     /*Cambia la imagen dependiendo de si acierta o no*/
     if(acerto == false){
         cantErrores++;
-        const cambioImagen = `./imagenes/canva/intento ${cantErrores}.png`
+        const cambioImagen = `./imagenes/canva/intento${cantErrores}.png`
         elemtCanva.src = cambioImagen; 
         LetrasIncorrectas = LetrasIncorrectas +  ' ' + letra;
         parrafoLetrasInco.textContent = LetrasIncorrectas;
