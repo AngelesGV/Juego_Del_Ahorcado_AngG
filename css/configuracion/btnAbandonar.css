@@ -3,7 +3,7 @@
     min-width: 30vh;
     padding: 0.8vh 1vh;
 
-    background: url("../imagenes/madera_dos.jpg") center no-repeat;
+    background: url(".../imagenes/madera_dos.jpg") center no-repeat;
     background-position: bottom;
     background-size: cover;
     border:#5e2117 solid 0.8vh;
