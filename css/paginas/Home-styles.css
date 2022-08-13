@@ -19,7 +19,7 @@
 #nuevo-juego{
     width: 32vh;
 
-    background: url("/imagenes/boton-jugar.png") cover / no-repeat;
+    background: url("./imagenes/boton-jugar.png") cover / no-repeat;
     
     transition: 1s;
 }
