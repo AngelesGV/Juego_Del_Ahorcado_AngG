@@ -1,7 +1,7 @@
 # Juego_Del_Ahorcado_AngG
 Alura Sprint 2 de Principiante en programación. Creando tu propio juego del ahorcado
 
-**link:** https://angelesgv.github.io/Juego_Del_Ahorcado_AngG/index.html
+**link:** https://angelesgv.github.io/Juego_Del_Ahorcado_AngG/
 
 **Recomendación:** Ejecutarlo desde otro servidor web, ejemplo live server, ya que hay cosas que desde github no muestra.
 
