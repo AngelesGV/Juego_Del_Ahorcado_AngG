@@ -1,0 +1,164 @@
+#cuerpo-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    height: 480px;
+    margin: 10px 0;
+
+
+    background: rgba(255, 255, 255, 50%);
+    border-radius: 15px;
+}
+
+#horca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45%;
+    height: fit-content;
+    margin: 10px;
+}
+
+.subrayado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 55%;
+    height: fit-content;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+#palabra-secreta{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+#palabra-secreta span{
+    display: inline-block;
+    align-items: flex-end;
+    width: 35px;
+    margin-right: 8px;
+
+    border-bottom:  5px solid #ea380b;
+    border-radius: 4px;
+
+    font-size: 2em;
+    text-align: center;
+    color: #000000;
+}
+
+#intentos{
+    width: 390px;
+    height: 390px;
+}
+
+#teclado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:  0% 4% 2% 4%;
+}
+
+.tecla{
+    width: 40px;
+    height: 40px;
+    padding: 0%;
+    margin: 1%;
+
+    border: transparent;
+    border-radius: 6px;
+    background: #f15d1e;
+
+    color: #FFEFD8;
+    font-size:large;
+    font-weight: bold;
+}
+
+
+.tecla:hover{
+    background: #d33f00;
+
+    font-weight: bold;
+    color: #FFEFD8;
+}
+
+.tecla-active{
+    margin: 1%;
+    width: 40px;
+    height: 40px;
+    padding: 0%;
+
+    background: linear-gradient(180deg, #E36028 10%, #FFD600 100%);
+    border: transparent;
+    border-radius: 6px;
+
+    font-size:large;
+    font-weight: bold;
+    color: #FFEFD8;
+}
+
+#letras-incorrectas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 2%;
+
+    color: #000000;
+    font-size: 2em;
+}
+
+#botones-nuevo-desistir{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#btn-juego-nuevo, #btn-desistir{
+    width: 140px;
+    margin: 2%;
+    padding: 12px 0;
+
+    border-radius: 15px;
+    border: transparent;
+}
+
+#btn-juego-nuevo{
+    background: #a8000b;
+
+    color: #ffe3d3;
+    font-weight: bold;
+}
+
+#btn-desistir{
+    background: #fff1ac;
+
+    color: #E36028;
+    font-weight: bold;
+}
+
+#btn-juego-nuevo:hover{
+    background: #790018;
+
+    color: #ffe3d3;
+    font-weight: bold;
+}
+
+#btn-desistir:hover{
+    padding: 9px 0;
+
+    border: solid 3px #E36028;
+    background: #fff1ac;
+    
+    font-weight: bold;
+}

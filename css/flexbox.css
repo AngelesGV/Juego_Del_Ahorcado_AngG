@@ -1,0 +1,82 @@
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0%;
+    height: 100%;
+
+    background: url("../imagenes/Fondo_Gif_Ahorcado.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4vh 6.5vh 3vh 6.5vh;
+}
+
+#logo-alura{
+    display: flex;
+    width: 92%;
+}
+
+.iconos-volumen-configuracion{
+    display: flex;
+    justify-content: space-around;
+    width: 6rem;
+}
+
+.icon-volumen-off{
+    display:none;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0%;
+
+    background: rgba(97, 2, 32, 0.5);
+}
+
+
+.copy-right{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vh;
+}
+
+.iconos-footer{
+    display: flex;
+    align-content: center;
+    align-items:center;
+    justify-content: space-between;
+    width: 5rem;
+    margin-top: 2vh;
+
+}
+
+.icono-footer img{
+    align-items: center;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+#__REC__-container{
+    display: none;
+}

@@ -1,0 +1,149 @@
+.btn-configuracion{
+    transition: 1s;
+}
+
+.btn-configuracion:hover{
+    transform: scale(1.1);
+}
+
+.negro-contenedor-menu-configuracion{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.borde-contenedor-menu-configuracion{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+
+    left: 35%;
+    top: 14%;
+    width: 410px;
+    height: 450px;
+    padding: 18px;
+
+    background: url("/imagenes/madera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.contenedor-menu-configuracion{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    background: #EDB37E;
+    border-radius: 15px;
+    box-shadow: inset -15px 10px 20px rgba(0, 0, 0, 0.10), inset 15px -10px 20px rgba(0, 0, 0, 0.10);
+}
+
+.cuerpo-boton-cerrar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vh;
+    margin-bottom: 1.5vh;
+}
+
+#boton-cerrar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#boton-cerrar:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.cuerpo-menu-configuracion{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-cof{
+    margin-bottom: 5px;
+
+    color: #772c22;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Rasa';
+}
+
+
+#titulo-volumen{
+    margin-bottom: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .negro-contenedor-menu-configuracion{
+        height: calc(100% + 30%);
+
+    }
+    .borde-contenedor-menu-configuracion{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        padding: 22px;
+
+        border-radius: 0px;
+    }
+
+    .cuerpo-boton-cerrar{
+        display: flex;
+        justify-content: flex-end;
+        margin: 2vh;
+        margin-bottom: 1.5vh;
+    }
+    
+    #boton-cerrar{
+        width: 30px;
+        height: 30px;
+    }
+
+    .titulo-cof{
+        margin-top: 40px;
+        font-size: 70px;
+    }
+    
+    
+    #titulo-volumen{
+        margin-bottom: 0%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .titulo-cof{
+        margin-top: 40px;
+        font-size: 40px;
+
+    }
+
+}
