@@ -85,7 +85,7 @@ function Resetear(){
     parrafoLetrasInco.textContent = LetrasIncorrectas;
     cantErrores = 0;
     cantAciertos = 0;
-    elemtCanva.src = `./imagenes/canva/intento 0.png` ; 
+    elemtCanva.src = `./imagenes/canva/intento0.png` ; 
     btnJuego.disabled = true;
     parrafo.innerHTML = '';
 
