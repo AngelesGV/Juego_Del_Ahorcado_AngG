@@ -66,12 +66,15 @@
 .mensaje-nueva-palabra{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-left: 2vh;
     width: 22vh;
 
     color: #5e2117;
     font-weight: 600;
+}
+.mensaje-nueva-palabra p{
+    margin-left: 2vh;
 }
 
 .Area-boton:hover{

@@ -33,13 +33,14 @@
         align-items: center;
         justify-content: space-between;
         margin-left: 1vh;
-        width: 20vh;
+        width: 100%;
     
         color: #5e2117;
         font-weight: 600;
     }
 
     .mensaje-nueva-palabra p{
-        width: 10vh;
+        width: 80%;
+        font-size: 2vh;
     }
 }
