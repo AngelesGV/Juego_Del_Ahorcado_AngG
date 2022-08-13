@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+    #cuerpo-contenedor{
+        flex-direction: column;
+        width: 90%;
+        height: fit-content;
+
+        border-radius: 15px;
+    }
+
+    #horca{
+        width: 95%;
+        height: 65%;
+        margin: 10px 10px 2px 10px;
+    }
+    
+    .subrayado{
+        width: 95%;
+        height: 35%;
+        margin: 10px;
+    }
+
+    #intentos{
+        width: 350px;
+        height: 350px;
+    }
+
+    #palabra-secreta{
+        margin-top: 60px;
+    }
+
+    #palabra-secreta span{
+        display: inline-block;
+        align-items: flex-end;
+        width: 35px;
+        margin-right: 8px;
+
+        border-bottom:  5px solid #ea380b;
+        border-radius: 4px;
+
+        text-align: center;
+        font-size: 2em;
+        color: #7a020c;
+    }
+
+    #letras-incorrectas{
+        color: #7a020c;
+        font-size: 2em;
+    }
+
+    
+    #botones-nuevo-desistir{
+        margin-bottom: 20px;
+    }
+
+
+}
+

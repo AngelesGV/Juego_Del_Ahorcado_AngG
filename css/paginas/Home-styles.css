@@ -1,0 +1,42 @@
+.titulo-principal-juego{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-juego{
+    width: 88%;
+    
+}
+
+.menu-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+
+#nuevo-juego{
+    width: 32vh;
+
+    background: url("/imagenes/boton-jugar.png") cover / no-repeat;
+    
+    transition: 1s;
+}
+
+#nuevo-juego:hover{
+    transform: scale(1.05);
+
+}
+
+#agregar-palabra{
+    margin-top: 6%;
+    width: 32vh;
+}
+
+#agregar-palabra:hover{
+    transition: 1s;
+    transform: scale(1.05);
+
+}
+

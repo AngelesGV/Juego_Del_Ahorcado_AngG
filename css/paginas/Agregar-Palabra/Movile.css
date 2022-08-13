@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+    
+    .borde-area-nueva-palabra{
+        width: 50vh;
+        height: 25vh;
+    }
+    
+    .area-nueva-palabra{
+        width: 90%;
+        height: 85%;
+    }
+    
+    
+    #input-agregar-palabra{
+        width: 100%;
+        padding: 3vh;
+    
+        font-size: 3vh;
+    }
+    
+    #input-agregar-palabra::placeholder{
+        font-size: 3vh;
+    }
+    
+    #icono-aviso{
+        width: 2vh;
+        height: 2vh;
+        margin: 0%;
+    }
+    
+    .mensaje-nueva-palabra{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 1vh;
+        width: 20vh;
+    
+        color: #5e2117;
+        font-weight: 600;
+    }
+}

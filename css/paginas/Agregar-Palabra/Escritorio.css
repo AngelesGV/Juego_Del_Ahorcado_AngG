@@ -1,0 +1,79 @@
+.cuerpo-nueva-palabra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.borde-area-nueva-palabra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vh;
+    height: 35vh;
+
+    background:  url("/imagenes/madera.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 10px ;
+    margin-bottom: 15px;
+}
+
+.area-nueva-palabra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 70vh;
+    height: 30vh;
+    max-width: 70vh;
+    max-height: 30vh;
+
+    background: #EDB37E;
+    box-shadow: inset 15px -10px 20px rgba(80, 24, 9, 0.312),inset -15px 10px 20px rgba(80, 24, 9, 0.312)
+}
+
+
+#input-agregar-palabra{
+    width: 100%;
+    padding: 3vh;
+
+    border: none;
+    background: transparent;
+
+    color: #5e2117;
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: "Rasa";
+
+    outline: 0;
+}
+
+#input-agregar-palabra::placeholder{
+    color: #5e2117;
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: "Rasa";
+}
+
+#icono-aviso{
+    width: 3vh;
+    height: 3vh;
+    margin: 0%;
+}
+
+.mensaje-nueva-palabra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2vh;
+    width: 22vh;
+
+    color: #5e2117;
+    font-weight: 600;
+}
+
+.Area-boton:hover{
+    transform: scale(1.05);
+}
