@@ -14,7 +14,7 @@
     width: 75vh;
     height: 35vh;
 
-    background:  url("./imagenes/madera.jpg") no-repeat;
+    background:  url("../imagenes/madera.jpg") no-repeat;
     background-size: cover;
     border-radius: 10px ;
     margin-bottom: 15px;
