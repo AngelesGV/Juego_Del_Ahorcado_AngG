@@ -199,11 +199,13 @@ function Juego(lineas, letra){
     if(acerto == false){
         cantErrores++;
         const cambioImagen = `./imagenes/canva/intento${cantErrores}.png`
+        console.log(cambioImagen);
         elemtCanva.src = cambioImagen; 
+        console.log(cambioImagen);
         LetrasIncorrectas = LetrasIncorrectas +  ' ' + letra;
         parrafoLetrasInco.textContent = LetrasIncorrectas;
     }
-    console.log(cambioImagen);
+
 
     /*Da mensaje y llama a la funcion que habilita o desabilita los botones de letras y juego nuevo*/
     if(cantErrores == 6){
