@@ -198,8 +198,7 @@ function Juego(lineas, letra){
     /*Cambia la imagen dependiendo de si acierta o no*/
     if(acerto == false){
         cantErrores++;
-        const cambioImagen = `./imagenes/canva/intento${cantErrores}.png`
-        console.log(cambioImagen);
+        const cambioImagen = `/Juego_Del_Ahorcado_AngG/imagenes/canva/intento${cantErrores}.png`
         elemtCanva.src = cambioImagen; 
         console.log(cambioImagen);
         LetrasIncorrectas = LetrasIncorrectas +  ' ' + letra;
