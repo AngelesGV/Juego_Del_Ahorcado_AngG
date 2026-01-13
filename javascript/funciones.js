@@ -199,6 +199,7 @@ function Juego(lineas, letra){
     if(acerto == false){
         cantErrores++;
         const cambioImagen = `/imagenes/canva/intento${cantErrores}.png`
+        console.log( elemtCanva.src(`./imagenes/canva/intento${cantErrores}.png`));
         console.log(cambioImagen);
         elemtCanva.src = cambioImagen; 
         console.log(cambioImagen);
